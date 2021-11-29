@@ -45,7 +45,7 @@ const twoSum = (nums, target) => {
   }
 };
 
-// 민기님
+// 희윤
 const twoSum = (nums, target) => {
   for (let i = 0; i < nums.length - 1; i++) {
     // -1 은 없어도 되더라.
