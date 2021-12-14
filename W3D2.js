@@ -40,13 +40,3 @@ const reverseString = (s) => {
   }
   return s;
 };
-
-// Method 3
-const reverseString = (s) => {
-  for (let i = 0; i < s.length / 2; i++) {
-    let reverseS = s[i];
-    s[i] = s[s.length - 1 - i];
-    s[s.length - 1 - i] = reverseS;
-  }
-  return s;
-};
